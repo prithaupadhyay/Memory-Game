@@ -1,0 +1,24 @@
+#heading{
+	text-align: center;
+	margin-top: 100px;
+	color:#660066;
+	font-size: 130px;
+}
+
+#btns{
+	text-align: center;
+}
+
+ #start{
+ 	text-align: center;
+ 	padding: 20px;
+ 	width: 100px;
+ 	height: 15px;
+ }
+
+ #instructions{
+ 	text-align: center;
+ 	padding: 20px;
+ 	width: 150px;
+ 	height: 15px;
+ }
