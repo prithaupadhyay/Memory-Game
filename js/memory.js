@@ -45,6 +45,11 @@ function change(changeit)
 	{
 		//previous=changeit;    //changeit is the id ..and ids are not same image[id[1]-1]
 		//console.log(count);
+		// if(count>1)
+		// {
+		// previous=current;
+		// previousid=currentid;
+		// }
 		if(x[1]-1<8)
 		{
 			previous=image[x[1]-1];
@@ -95,8 +100,10 @@ function change(changeit)
 		console.log(current);
 			document.getElementById(previousid).src=previous;
 			document.getElementById(currentid).src=current;
-			document.getElementById(previousid).disabled=true;
-			document.getElementById(currentid).disabled=true;
+			// document.getElementById(previousid).disabled=true;
+			// document.getElementById(currentid).disabled=true;
+			document.getElementById(previousid).onclick="";
+			document.getElementById(currentid).onclick="";
 
 		// document.getElementById(previousid).setAttribute('disabled','disabled');
 		// document.getElementById(currentid).setAttribute('disabled','disabled');
