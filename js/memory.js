@@ -41,50 +41,85 @@ function change(changeit)
 {
 	var x=changeit.split("-");
 
-	if(count%2==0)
-	{
+
+	//if(count%2==0)
+	//{
 		//previous=changeit;    //changeit is the id ..and ids are not same image[id[1]-1]
 		//console.log(count);
-		// if(count>1)
-		// {
-		// previous=current;
-		// previousid=currentid;
-		// }
-		if(x[1]-1<8)
+		if(count>1)
 		{
-			previous=image[x[1]-1];
-			document.getElementById(changeit).src=image[x[1]-1];
+			previous=current;
+			previousid=currentid;
+		
+			if(x[1]-1<8)
+			{
+				current=image[x[1]-1];
+				document.getElementById(changeit).src=image[x[1]-1];
 
-		}
-		else
-		{
-			previous=image[x[1]-9];
-			document.getElementById(changeit).src=image[x[1]-9];
-		}
-		previousid=changeit;
-		count++;
-		window.setTimeout(function (){document.getElementById(previousid).src="image/pattern.jpg"},500);
-	}
+			}
+			else
+			{
+				current=image[x[1]-9];
+				document.getElementById(changeit).src=image[x[1]-9];
+			}
+			currentid=changeit;
+			count++;
+			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);
+	  }
+	  else if(count==0)          //when 1st and 2nd turn
+	  {
+	  	if(x[1]-1<8)
+			{
+				previous=image[x[1]-1];
+				document.getElementById(changeit).src=image[x[1]-1];
 
-	else
-	{
-		//console.log(count);
-		if(x[1]-1<8)
-		{
-			current=image[x[1]-1];
-			document.getElementById(changeit).src=image[x[1]-1];
+			}
+			else
+			{
+				previous=image[x[1]-9];
+				document.getElementById(changeit).src=image[x[1]-9];
+			}
+			previousid=changeit;
+			count++;
+			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern.jpg"},500);
+	  }
+	  else if(count==1)
+	  {
+	  	if(x[1]-1<8)
+			{
+				current=image[x[1]-1];
+				document.getElementById(changeit).src=image[x[1]-1];
 
-		}
-		else
-		{
-			current=image[x[1]-9];
-			document.getElementById(changeit).src=image[x[1]-9];
-		}
-		currentid=changeit;
-		count++;
-		window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);
+			}
+			else
+			{
+				current=image[x[1]-9];
+				document.getElementById(changeit).src=image[x[1]-9];
+			}
+			currentid=changeit;
+			count++;
+			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);
+	  }
 
-	}
+	// else
+	// {
+	// 	//console.log(count);
+	// 	if(x[1]-1<8)
+	// 	{
+	// 		current=image[x[1]-1];
+	// 		document.getElementById(changeit).src=image[x[1]-1];
+
+	// 	}
+	// 	else
+	// 	{
+	// 		current=image[x[1]-9];
+	// 		document.getElementById(changeit).src=image[x[1]-9];
+	// 	}
+	// 	currentid=changeit;
+	// 	count++;
+	// 	window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);
+
+	// }
 
 
 	if(count>1)
@@ -93,17 +128,19 @@ function change(changeit)
 		{
 		//document.getElementById(previousid).src='image/tick.png';
 		//document.getElementById(currentid).src='image/tick.png';
-		//console.log(count);
+		console.log(count);
 		console.log(previousid);
 		console.log(currentid);
 		console.log(previous);
 		console.log(current);
-			document.getElementById(previousid).src=previous;
-			document.getElementById(currentid).src=current;
+			
 			// document.getElementById(previousid).disabled=true;
 			// document.getElementById(currentid).disabled=true;
 			document.getElementById(previousid).onclick="";
 			document.getElementById(currentid).onclick="";
+			document.getElementById(previousid).src=previous;
+			document.getElementById(currentid).src=current;
+			document.getElementById(changeit).id=" ";
 
 		// document.getElementById(previousid).setAttribute('disabled','disabled');
 		// document.getElementById(currentid).setAttribute('disabled','disabled');
@@ -126,6 +163,14 @@ function change(changeit)
 		}
 
 	}
+
+	// if(document.getElementById("box-1")==document.getElementById("box-2")==document.getElementById("box-3")==document.getElementById("box-4")==document.getElementById("box-5)
+	// 	==document.getElementById("box-6")==document.getElementById("box-7")==document.getElementById("box-8")==document.getElementById("box-9")==document.getElementById("box-10)
+	// 	==document.getElementById("box-11")==document.getElementById("box-12")==document.getElementById("box-13")==document.getElementById("box-14")==document.getElementById("box-15)
+	// 	==document.getElementById("box-16")){
+
+	// 	console.log("winnnneeeeerrr");
+	// }
 }
 
 
@@ -193,9 +238,9 @@ function change8(changeit8)
 
 */
 
-/*function clicked1(boxclicked)
+/*function clicked1("boxclicked)
 {
-	document.getElementById(boxclicked).src=image[0];
-	document.getElementById(boxclicked).disabled=true;
+	document.getElementById("boxclicked).src=image[0];
+	document.getElementById("boxclicked).disabled=true;
 
 }*/
