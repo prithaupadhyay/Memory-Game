@@ -11,6 +11,7 @@ image[14]="image/image7.png";
 var previous,current;
 var previousid,currentid;
 var count=0;
+var Score=100;
 
 var listy=[];
 var unicheck=[];
@@ -36,6 +37,8 @@ for (var i = 0;i<16;i++)
 	console.log(listy[i]);	
 } 
 
+
+
 function index(member)
 {
 	for (var i = 0; i <16; i++) {
@@ -46,6 +49,9 @@ function index(member)
 
 function change(changeit)
 {
+	Score=Score-2;
+	//document.getElementById(score)=score;
+	document.getElementById("score").innerHTML="SCORE : "+ Score;
 	var x=changeit.split("-");
 	//var y=listy.indexOf(x[1]);
 	var y=index(x[1]); 
@@ -148,6 +154,27 @@ function change(changeit)
 			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);  
 		}
 
-	}
-}
+		
 
+	}
+	// if(count>16)
+	// {
+	// 	if(document.getElementsByClassName("box").src != "image/pattern.jpg")
+	// 	{
+	// 		document.getElementById("boxes").innerHTML="Completed and score = "+ Score;
+	// 	}
+	// 	// var c=1;
+	// 	// for (var i =0;i<16; i++) 
+	// 	// {
+	// 	// 	if(document.getElementById("box-"+i).src=="image/pattern.jpg")
+	// 	// 		c=0;
+
+	// 	// }
+	// 	// if(c==1)
+	// 	// {
+	// 	// 	document.getElementById("boxes").innerHTML="Completed and score = "+ Score;
+
+	// 	// }
+	// }
+}
+	
