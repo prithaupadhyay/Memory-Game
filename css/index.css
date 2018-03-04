@@ -1,5 +1,11 @@
+body { 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
 h1 {
-	color: #ffffff; 
+	color: black; 
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	font-size: 128px;
 	margin-top: 20px; 
@@ -16,17 +22,6 @@ img {
     margin-right: auto;
 }
 
-h2 { 
-	color: #111; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 30px; 
-	font-weight: 300; 
-	line-height: 32px; 
-	margin: 0 0 72px; 
-	text-align: center; 
-}
-
-
 a { 
 	color: #685206; 
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
@@ -35,6 +30,15 @@ a {
 	margin: 0 0 24px; 
 	text-align: justify; 
 	text-justify: inter-word; 
+}
+
+div.main-box {
+	margin: 40px;
+    background-color: #ffffff;
+	opacity: 0.6;
+	padding: 1;
+	filter: alpha(opacity=60);
+	overflow-wrap: normal;
 }
 
 .button {
