@@ -13,7 +13,7 @@ Check the live version [here](https://prithaupadhyay.github.io/Memory-Game/)
 
 ```sh
 $ git clone https://github.com/{{your_username}}/Memory-Game.git
-$ cd Typeracer
+$ cd Memory-Game
 $ git remote add upstream https://github.com/prithaupadhyay/Memory-Game.git
 ```
 
