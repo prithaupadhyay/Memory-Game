@@ -1,7 +1,12 @@
 # Memory Game 🎮
+
+[<img src="image/memory.svg" align="right" width="100">](https://prithaupadhyay.github.io/Memory-Game/)
+
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/prithaupadhyay/Memory-Game/blob/master/LICENSE)
 
 Memory game with a bit of Geeky touch.
+
+Check the live version [here](https://prithaupadhyay.github.io/Memory-Game/)
 
 ## Developement
 - Fork the repository and then follow the instructions:
