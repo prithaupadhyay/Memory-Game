@@ -40,6 +40,7 @@ function index(member) {
 	}
 }
 
+
 function change(changeit) {
 	Score=Score-2;
 	//document.getElementById(score)=score;
