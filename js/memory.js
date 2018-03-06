@@ -12,6 +12,7 @@ var previous,current;
 var previousid,currentid;
 var count=0;
 var Score=100;
+var wincondition=0;
 
 var listy=[];
 var unicheck=[];
@@ -104,7 +105,9 @@ function change(changeit) {
 			console.log(previousid);
 			console.log(currentid);
 			console.log(previous);
-			console.log(current);	
+			console.log(current);
+			wincondition++;	
+			console.log(wincondition);
 
 			// document.getElementById(previousid).disabled=true;
 			// document.getElementById(currentid).disabled=true;
@@ -129,6 +132,11 @@ function change(changeit) {
 			document.getElementById(currentid).src=current;
 			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern.jpg"},500);
 			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);  
+		}
+
+		if(wincondition==8)
+		{
+			document.getElementById("score").innerHTML="Final Score: "+Score ;
 		}
 	}
 	// if(count>16)
