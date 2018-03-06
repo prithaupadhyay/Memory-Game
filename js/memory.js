@@ -131,6 +131,24 @@ function change(changeit) {
 			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);  
 		}
 	}
-	
+	// if(count>16)
+	// {
+	// 	if(document.getElementsByClassName("box").src != "image/pattern.jpg")
+	// 	{
+	// 		document.getElementById("boxes").innerHTML="Completed and score = "+ Score;
+	// 	}
+	// 	// var c=1;
+	// 	// for (var i =0;i<16; i++) 
+	// 	// {
+	// 	// 	if(document.getElementById("box-"+i).src=="image/pattern.jpg")
+	// 	// 		c=0;
+
+	// 	// }
+	// 	// if(c==1)
+	// 	// {
+	// 	// 	document.getElementById("boxes").innerHTML="Completed and score = "+ Score;
+
+	// 	// }
+	// }
 }
 	
