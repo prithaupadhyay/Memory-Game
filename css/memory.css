@@ -27,3 +27,11 @@ div.score-box {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
+#newgame{
+	align-content: center;
+	margin-left:15.5%;
+	height: 50px;
+	width: 120px;
+	font-family: Palatino;
+	font-size: 30px;
+}

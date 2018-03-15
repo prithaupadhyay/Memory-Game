@@ -55,8 +55,8 @@ function change(changeit)
 	var x=changeit.split("-");
 	//var y=listy.indexOf(x[1]);
 	var y=index(x[1]); 
-	console.log(x[1]);
-	console.log(y);
+	//console.log(x[1]);
+	//console.log(y);
 
 		if(count>1) 
 		{
@@ -122,7 +122,8 @@ function change(changeit)
 			document.getElementById(previousid).src=previous;
 			document.getElementById(currentid).src=current;
 			document.getElementById(changeit).id=" ";
-
+			wincondition++;
+			console.log(wincondition);
 			
 		}
 		else if(previous!=current && previousid!=currentid) 
@@ -137,6 +138,7 @@ function change(changeit)
 		if(wincondition==8)
 		{
 			document.getElementById("score").innerHTML="Final Score : "+ Score;
+			//document.getElementById("boxes").innerHTML="Hurray!!! Your final score is "+Score;
 		}
 	}
 	
