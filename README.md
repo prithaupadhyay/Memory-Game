@@ -9,6 +9,20 @@
   Check the live version <a href="https://prithaupadhyay.github.io/Memory-Game/">here</a>
 </p>
 
+
+## Available Cards
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image1.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image2.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image3.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image4.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image5.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg" width="100" style="width: 13%; margin-right: 1%; float: left; clear: left;" />
+</p>
+
+
 ## Developement
 - Fork the repository and then follow the instructions:
 
