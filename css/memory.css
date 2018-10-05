@@ -1,11 +1,37 @@
+body { 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
 #boxes{
-	margin-left: 380px
-	
+	margin-top: 30px;
+	margin-left: 380px;
+    display: block;
+}
+
+div.score-box {
+	margin: 40px;
+    background-color: #ffffff;
+	opacity: 0.6;
+	padding: 1;
+	filter: alpha(opacity=60);
+	overflow-wrap: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 32px;
 }
 
 #score{
-	margin-left: 1160px;
-	color:blue;
-	background-color: white;
+	float: right;
+	color:black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
+#newgame{
+	align-content: center;
+	margin-left:15.5%;
+	height: 50px;
+	width: 120px;
+	font-family: Palatino;
+	font-size: 30px;
+}

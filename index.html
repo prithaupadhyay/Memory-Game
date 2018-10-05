@@ -1,13 +1,35 @@
 <html>
+	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
 	<title>Memory Game</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	
 	<body background="image/back.jpg">
-		<img src="image/memory.svg" width="150">
-		<h1>Memory Game</h1></br>
+		<a align="left" class="github-button" href="https://github.com/prithaupadhyay/Memory-Game/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork prithaupadhyay/Memory-Game on GitHub">Fork</a>
+		<a align="left" class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true" aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
+		<a align="left" class="github-button" href="https://github.com/prithaupadhyay/Memory-Game" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star prithaupadhyay/Memory-Game on GitHub">Star</a>
+		<div class="main-box" item-width="300">
+			<img src="image/memory.svg" width="150">
+			<h1>Memory Game</h1>
+		</div>
+		</br>
 		<div align="center">
 			<a class="button" href="memory.html">Start</a>
-			<a class="button">Instructions</a>
+			<a class="button" href="#popup1">Instructions</a>
 		</div>
-		
+		<div id="popup1" class="overlay">
+	<div class="popup">
+		<center><h2>Instructions</h2></center>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			<b>1.</b>Out of the 16 boxes, 2 boxes have same image.</br>
+			<b>2.</b>You can view the image just by clicking over the box once.</br>
+			<b>3.</b>You'll have to select two boxes with the same image consecutively.</br>
+			<b>4.</b>If you'll select the correct pair, the two images will flip.</br>
+			<b>5.</b>In the same manner, you'll have to select all the correct pairs in minimum number of attempts.</br>
+			<b>6.</b>2 marks will be reduced everytime you'll click on a box to flip it.</br>
+		</div>
+	</div>
+</div>
 	</body>
 </html>
