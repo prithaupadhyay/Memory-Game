@@ -1,7 +1,7 @@
-body { 
+body {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
 }
 
 #boxes{
@@ -17,14 +17,14 @@ div.score-box {
 	padding: 1;
 	filter: alpha(opacity=60);
 	overflow-wrap: normal;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 32px;
 }
 
 #score{
 	float: right;
 	color:black;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #newgame{
@@ -34,4 +34,8 @@ div.score-box {
 	width: 120px;
 	font-family: Palatino;
 	font-size: 30px;
+}
+
+#boxes img {
+	opacity: 0.6;
 }
