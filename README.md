@@ -11,22 +11,14 @@
 
 ## Available Cards
 
-![jQuery](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image1.jpg)
-![Vue.js](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image2.jpg)
-![SVG](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image3.jpg)
-![Python](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image4.jpg)
-![CSS3](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image5.jpg)
-![HTML5](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg)
-![PostgreSQL](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image1.jpg" width="100" style="width: 100px; float: left;" />
-  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image2.jpg" width="100" style="width: 100px; float: left;" />
-  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image3.jpg" width="100" style="width: 100px; float: left;" />
-  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image4.jpg" width="100" style="width: 100px; float: left;" />
-  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image5.jpg" width="100" style="width: 100px; float: left;" />
-  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg" width="100" style="width: 100px; float: left;" />
-  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg" width="100" style="width: 100px; float: left; clear: left;" />
+<p align="left">
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image1.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image2.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image3.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image4.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image5.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg" width="100" style="width: 13%; margin-right: 1%; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg" width="100" style="width: 13%; margin-right: 1%; float: left; clear: left;" />
 </p>
 
 
