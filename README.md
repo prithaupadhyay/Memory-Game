@@ -19,13 +19,15 @@
 ![HTML5](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg)
 ![PostgreSQL](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg)
 
-<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image1.jpg" width="100" style="width: 100px; float: left;" />
-<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image2.jpg" width="100" style="width: 100px; float: left;" />
-<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image3.jpg" width="100" style="width: 100px; float: left;" />
-<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image4.jpg" width="100" style="width: 100px; float: left;" />
-<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image5.jpg" width="100" style="width: 100px; float: left;" />
-<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg" width="100" style="width: 100px; float: left;" />
-<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg" width="100" style="width: 100px; float: left;" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image1.jpg" width="100" style="width: 100px; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image2.jpg" width="100" style="width: 100px; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image3.jpg" width="100" style="width: 100px; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image4.jpg" width="100" style="width: 100px; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image5.jpg" width="100" style="width: 100px; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg" width="100" style="width: 100px; float: left;" />
+  <img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg" width="100" style="width: 100px; float: left; clear: left;" />
+</p>
 
 
 
