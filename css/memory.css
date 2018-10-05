@@ -17,14 +17,14 @@ div.score-box {
 	padding: 1;
 	filter: alpha(opacity=60);
 	overflow-wrap: normal;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Brushstroke", Brushstroke, Arial, sans-serif; 
 	font-size: 32px;
 }
 
 #score{
 	float: right;
 	color:black;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Brushstroke", Brushstroke, Arial, sans-serif; 
 }
 
 #newgame{
