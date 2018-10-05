@@ -9,6 +9,26 @@
   Check the live version <a href="https://prithaupadhyay.github.io/Memory-Game/">here</a>
 </p>
 
+## Available Cards
+
+![jQuery](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image1.jpg)
+![Vue.js](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image2.jpg)
+![SVG](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image3.jpg)
+![Python](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image4.jpg)
+![CSS3](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image5.jpg)
+![HTML5](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg)
+![PostgreSQL](https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg)
+
+<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image1.jpg" style="width:22%; margin-right: 2%; float: right;" />
+<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image2.jpg" style="width:22%; margin-right: 2%; float: right;" />
+<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image3.jpg" style="width:22%; margin-right: 2%; float: right;" />
+<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image4.jpg" style="width:22%; margin-right: 2%; float: right;" />
+<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image5.jpg" style="width:22%; margin-right: 2%; float: right;" />
+<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image6.jpg" style="width:22%; margin-right: 2%; float: right;" />
+<img src="https://raw.githubusercontent.com/prithaupadhyay/Memory-Game/master/image/image7.jpg" style="width:22%; margin-right: 2%; float: right;" />
+
+
+
 ## Developement
 - Fork the repository and then follow the instructions:
 
