@@ -10,15 +10,27 @@ body {
     display: block;
 }
 
-div.score-box {
+div.score-box{
 	margin: 40px;
-    background-color: #ffffff;
+  background-color: #ffffff;
 	opacity: 0.6;
 	padding: 1;
 	filter: alpha(opacity=60);
 	overflow-wrap: normal;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	font-size: 32px;
+}
+
+div.name-box{
+	margin: 40px;
+  background-color: #ffffff;
+	opacity: 0.6;
+	padding: 1;
+	filter: alpha(opacity=60);
+	overflow-wrap: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 32px;
+  float: right;
 }
 
 #score{
