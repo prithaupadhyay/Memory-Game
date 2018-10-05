@@ -1,17 +1,17 @@
-body { 
+body {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
 }
 
 h1 {
-	color: black; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color: black;
+	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 128px;
-	margin-top: 20px; 
-	font-weight: normal; 
-	letter-spacing: -1px; 
-	line-height: 1; 
+	margin-top: 20px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 1;
 	text-align: center;
 }
 
@@ -22,14 +22,14 @@ img {
     margin-right: auto;
 }
 
-a { 
-	color: #685206; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 14px; 
-	line-height: 24px; 
-	margin: 0 0 24px; 
-	text-align: justify; 
-	text-justify: inter-word; 
+a {
+	color: #685206;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 0 24px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 div.main-box {
