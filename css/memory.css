@@ -17,14 +17,14 @@ div.score-box {
 	padding: 1;
 	filter: alpha(opacity=60);
 	overflow-wrap: normal;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Courier New";
 	font-size: 32px;
 }
 
 #score{
 	float: right;
 	color:black;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Courier New";
 }
 
 #newgame{
@@ -34,4 +34,8 @@ div.score-box {
 	width: 120px;
 	font-family: Palatino;
 	font-size: 30px;
+}
+Button b {
+	font-family: "Courier New";
+	font-size: 20px;
 }
