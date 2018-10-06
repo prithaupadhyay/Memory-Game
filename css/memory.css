@@ -1,13 +1,13 @@
 body { 
+	background-image: url('../image/back.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
 }
 
-#boxes{
-	margin-top: 30px;
-	margin-left: 380px;
-    display: block;
+#boxes {
+	margin: 0 auto;
+	display: inline-block;
 }
 
 div.score-box{
@@ -33,17 +33,39 @@ div.name-box{
   float: right;
 }
 
-#score{
+#score {
 	float: right;
 	color:black;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
-#newgame{
+#newgame {
 	align-content: center;
 	margin-left:15.5%;
 	height: 50px;
 	width: 120px;
 	font-family: Palatino;
 	font-size: 30px;
+}
+
+.top-bar {
+	width: 100%;
+	display: inline-block;
+}
+.col-13 {
+	width: 33.333%;
+	display: inline-block;
+	float: left;
+}
+.main {
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+/* fixe size of the cards */
+.box {
+	width: 140px;
+	height: 140px;
 }

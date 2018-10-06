@@ -1,40 +1,61 @@
-<html>
-<title>Memory-Game</title>
-	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="css/memory.css">
-	<script type="text/javascript" src="js/memory.js"></script>
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Memory-Game</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/memory.css">
+		<script type="text/javascript" src="js/memory.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
 
-	<body background="image/back.jpg">
-		<a align="left" class="github-button" href="https://github.com/prithaupadhyay/Memory-Game/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork prithaupadhyay/Memory-Game on GitHub">Fork</a>
-		<a align="left" class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true" aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
-		<a align="left" class="github-button" href="https://github.com/prithaupadhyay/Memory-Game" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star prithaupadhyay/Memory-Game on GitHub">Star</a>    
-    <button onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></button>
-    
-		<div class="score-box" id="score">
-      Score: 100
-    </div>
+		<header class="top-bar">
+			<div class="col-13">
+				<a class="github-button" href="https://github.com/prithaupadhyay/Memory-Game/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork prithaupadhyay/Memory-Game on GitHub">Fork</a>
+				<a class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true" aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
+				<a class="github-button" href="https://github.com/prithaupadhyay/Memory-Game" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star prithaupadhyay/Memory-Game on GitHub">Star</a>
+			</div>
+			<div class="col-13">
+				<button onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></button>
+			</div>
+			<div class="col-13">
+        <div class="score-box" id="score">Score: 100</div>
+        <div class="name-box" id="nameBox"></div>      
+      </div>
+      
 
-    <div class="name-box" id="nameBox"></div>
+		</header>
 
-    <div id="boxes">
-			<img class="box" id="box-0" src="image/pattern.jpg" onclick="change('box-0')" >
-			<img class="box" id="box-1" src="image/pattern.jpg" onclick="change('box-1')" >
-			<img class="box" id="box-2" src="image/pattern.jpg" onclick="change('box-2')" >			
-			<img class="box" id="box-3" src="image/pattern.jpg" onclick="change('box-3')"> </br>
-			<img class="box" id="box-4" src="image/pattern.jpg" onclick="change('box-4')">
-			<img class="box" id="box-5" src="image/pattern.jpg" onclick="change('box-5')">
-			<img class="box" id="box-6" src="image/pattern.jpg" onclick="change('box-6')">
-			<img class="box" id="box-7" src="image/pattern.jpg" onclick="change('box-7')"></br>
-			<img class="box" id="box-8" src="image/pattern.jpg" onclick="change('box-8')">
-			<img class="box" id="box-9" src="image/pattern.jpg" onclick="change('box-9')">
-			<img class="box" id="box-10" src="image/pattern.jpg" onclick="change('box-10')">
-		    <img class="box" id="box-11" src="image/pattern.jpg" onclick="change('box-11')"></br>
-			<img class="box" id="box-12" src="image/pattern.jpg" onclick="change('box-12')">
-			<img class="box" id="box-13" src="image/pattern.jpg" onclick="change('box-13')">
-			<img class="box" id="box-14" src="image/pattern.jpg" onclick="change('box-14')">
-			<img class="box" id="box-15" src="image/pattern.jpg" onclick="change('box-15')">
-		</div>
+		<main class="main">
+			<div id="boxes">
+				<img class="box" id="box-0" src="image/pattern.jpg" onclick="change('box-0')" >
+				<img class="box" id="box-1" src="image/pattern.jpg" onclick="change('box-1')" >
+				<img class="box" id="box-2" src="image/pattern.jpg" onclick="change('box-2')" >			
+				<img class="box" id="box-3" src="image/pattern.jpg" onclick="change('box-3')"> </br>
+				<img class="box" id="box-4" src="image/pattern.jpg" onclick="change('box-4')">
+				<img class="box" id="box-5" src="image/pattern.jpg" onclick="change('box-5')">
+				<img class="box" id="box-6" src="image/pattern.jpg" onclick="change('box-6')">
+				<img class="box" id="box-7" src="image/pattern.jpg" onclick="change('box-7')"></br>
+				<img class="box" id="box-8" src="image/pattern.jpg" onclick="change('box-8')">
+				<img class="box" id="box-9" src="image/pattern.jpg" onclick="change('box-9')">
+				<img class="box" id="box-10" src="image/pattern.jpg" onclick="change('box-10')">
+				<img class="box" id="box-11" src="image/pattern.jpg" onclick="change('box-11')"></br>
+				<img class="box" id="box-12" src="image/pattern.jpg" onclick="change('box-12')">
+				<img class="box" id="box-13" src="image/pattern.jpg" onclick="change('box-13')">
+				<img class="box" id="box-14" src="image/pattern.jpg" onclick="change('box-14')">
+				<img class="box" id="box-15" src="image/pattern.jpg" onclick="change('box-15')">
+			</div>
+		</main>
 		
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
 	</body>
 </html>
