@@ -1,63 +1,61 @@
-body { 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1 {
-	color: black; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 128px;
-	margin-top: 20px; 
-	font-weight: normal; 
-	letter-spacing: -1px; 
-	line-height: 1; 
-	text-align: center;
+  color: black;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 128px;
+  margin-top: 20px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
 }
 
 img {
-	margin-top: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-a { 
-	color: #685206; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 14px; 
-	line-height: 24px; 
-	margin: 0 0 24px; 
-	text-align: justify; 
-	text-justify: inter-word; 
+a {
+  color: #685206;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 div.main-box {
-	margin: 40px;
-    background-color: #ffffff;
-	opacity: 0.6;
-	padding: 1;
-	filter: alpha(opacity=60);
-	overflow-wrap: normal;
+  margin: 40px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  padding: 1;
+  filter: alpha(opacity=60);
+  overflow-wrap: normal;
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 13px 13px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 13px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
 }
 
 .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+              0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-
-
-
 
 .overlay {
   position: fixed;
@@ -101,18 +99,18 @@ div.main-box {
   color: #333;
 }
 .popup .close:hover {
-  color: #06D85F;
+  color: #06d85f;
 }
 .popup .content {
   max-height: 30%;
   overflow: auto;
 }
 
-@media screen and (max-width: 700px){
-  .box{
+@media screen and (max-width: 700px) {
+  .box {
     width: 70%;
   }
-  .popup{
+  .popup {
     width: 70%;
   }
 }

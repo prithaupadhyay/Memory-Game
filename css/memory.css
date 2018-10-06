@@ -1,37 +1,41 @@
-body { 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-#boxes{
-	margin-top: 30px;
-	margin-left: 380px;
-    display: block;
+#boxes {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 576px;
+  display: block;
 }
 
 div.score-box {
-	margin: 40px;
-    background-color: #ffffff;
-	opacity: 0.6;
-	padding: 1;
-	filter: alpha(opacity=60);
-	overflow-wrap: normal;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 32px;
+  margin: 40px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  padding: 1;
+  filter: alpha(opacity=60);
+  overflow-wrap: normal;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 32px;
 }
 
-#score{
-	float: right;
-	color:black;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+#score {
+  float: right;
+  color: black;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#newgame{
-	align-content: center;
-	margin-left:15.5%;
-	height: 50px;
-	width: 120px;
-	font-family: Palatino;
-	font-size: 30px;
+#newgame {
+  display: block;
+  align-content: center;
+  margin-left: 15.5%;
+  height: 50px;
+  width: 120px;
+  margin: 0 auto;
+  font-family: Palatino;
+  font-size: 30px;
 }
