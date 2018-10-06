@@ -6,7 +6,7 @@ body {
 
 h1 {
 	color: black; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Verdana", Helvetica, Arial, sans-serif; 
 	font-size: 128px;
 	margin-top: 20px; 
 	font-weight: normal; 
@@ -24,7 +24,7 @@ img {
 
 a { 
 	color: #685206; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Verdana", Helvetica, Arial, sans-serif; 
 	font-size: 14px; 
 	line-height: 24px; 
 	margin: 0 0 24px; 
