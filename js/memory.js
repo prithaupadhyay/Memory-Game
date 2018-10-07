@@ -51,6 +51,10 @@ function index(member)
 function change(changeit) 
 {
 	Score=Score-2;
+	if(Score < 0) {
+		window.alert("Game Over!");
+		window.location.reload();
+	}
 	document.getElementById("score").innerHTML="Score : "+ Score;
 	var x=changeit.split("-");
 	//var y=listy.indexOf(x[1]);
