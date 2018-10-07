@@ -1,5 +1,5 @@
 body { 
-	background-image: url('../image/back.jpg');
+	background-image: url('../image/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -8,6 +8,8 @@ body {
 #boxes {
 	margin: 0 auto;
 	display: inline-block;
+	padding: 20px;
+	background-color: rgba(50,100,200,0.2);
 }
 
 div.score-box {
@@ -33,7 +35,7 @@ div.score-box {
 	height: 50px;
 	width: 120px;
 	font-family: Palatino;
-	font-size: 30px;
+	font-size: 15px;
 }
 
 .top-bar {
@@ -54,6 +56,12 @@ div.score-box {
 
 /* fixe size of the cards */
 .box {
-	width: 140px;
-	height: 140px;
+	width: 120px;
+	height: 120px;
+	transition: transform 0.5s;
+	border-radius: 10px;
+}
+
+.box:hover {
+	transform: scale(1.05);
 }
