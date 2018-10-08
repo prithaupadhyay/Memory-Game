@@ -12,6 +12,11 @@
 		<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/memory.css">
 		<script type="text/javascript" src="js/memory.js"></script>
+		<!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	    <!-- Compiled and minified JavaScript -->
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -24,32 +29,33 @@
 				<a class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true" aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
 				<a class="github-button" href="https://github.com/prithaupadhyay/Memory-Game" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star prithaupadhyay/Memory-Game on GitHub">Star</a>
 			</div>
-			<div class="col-13">
-				<button onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></button>
+			<div class="col-13"><!-- 
+				<button onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></button> -->
+
+				<a class="waves-effect red accent-4 btn-large" onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></a>
+				<div class="card-panel teal lighten-2" id="score">Score: 100</div>
 			</div>
-			<div class="col-13">
-				<div class="score-box" id="score">Score: 100</div>
 			</div>
 		</header>
 
 		<main class="main">
 			<div id="boxes">
-				<img class="box" id="box-0" src="image/pattern.jpg" onclick="change('box-0')" >
-				<img class="box" id="box-1" src="image/pattern.jpg" onclick="change('box-1')" >
-				<img class="box" id="box-2" src="image/pattern.jpg" onclick="change('box-2')" >			
-				<img class="box" id="box-3" src="image/pattern.jpg" onclick="change('box-3')"> </br>
-				<img class="box" id="box-4" src="image/pattern.jpg" onclick="change('box-4')">
-				<img class="box" id="box-5" src="image/pattern.jpg" onclick="change('box-5')">
-				<img class="box" id="box-6" src="image/pattern.jpg" onclick="change('box-6')">
-				<img class="box" id="box-7" src="image/pattern.jpg" onclick="change('box-7')"></br>
-				<img class="box" id="box-8" src="image/pattern.jpg" onclick="change('box-8')">
-				<img class="box" id="box-9" src="image/pattern.jpg" onclick="change('box-9')">
-				<img class="box" id="box-10" src="image/pattern.jpg" onclick="change('box-10')">
-				<img class="box" id="box-11" src="image/pattern.jpg" onclick="change('box-11')"></br>
-				<img class="box" id="box-12" src="image/pattern.jpg" onclick="change('box-12')">
-				<img class="box" id="box-13" src="image/pattern.jpg" onclick="change('box-13')">
-				<img class="box" id="box-14" src="image/pattern.jpg" onclick="change('box-14')">
-				<img class="box" id="box-15" src="image/pattern.jpg" onclick="change('box-15')">
+				<img class="box" id="box-0" src="image/pattern2.jpg" onclick="change('box-0')" >
+				<img class="box" id="box-1" src="image/pattern2.jpg" onclick="change('box-1')" >
+				<img class="box" id="box-2" src="image/pattern2.jpg" onclick="change('box-2')" >			
+				<img class="box" id="box-3" src="image/pattern2.jpg" onclick="change('box-3')"> </br>
+				<img class="box" id="box-4" src="image/pattern2.jpg" onclick="change('box-4')">
+				<img class="box" id="box-5" src="image/pattern2.jpg" onclick="change('box-5')">
+				<img class="box" id="box-6" src="image/pattern2.jpg" onclick="change('box-6')">
+				<img class="box" id="box-7" src="image/pattern2.jpg" onclick="change('box-7')"></br>
+				<img class="box" id="box-8" src="image/pattern2.jpg" onclick="change('box-8')">
+				<img class="box" id="box-9" src="image/pattern2.jpg" onclick="change('box-9')">
+				<img class="box" id="box-10" src="image/pattern2.jpg" onclick="change('box-10')">
+				<img class="box" id="box-11" src="image/pattern2.jpg" onclick="change('box-11')"></br>
+				<img class="box" id="box-12" src="image/pattern2.jpg" onclick="change('box-12')">
+				<img class="box" id="box-13" src="image/pattern2.jpg" onclick="change('box-13')">
+				<img class="box" id="box-14" src="image/pattern2.jpg" onclick="change('box-14')">
+				<img class="box" id="box-15" src="image/pattern2.jpg" onclick="change('box-15')">
 			</div>
 		</main>
 		

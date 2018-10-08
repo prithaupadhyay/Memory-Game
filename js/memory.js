@@ -55,7 +55,7 @@ function change(changeit)
 		window.alert("Game Over!");
 		window.location.reload();
 	}
-	document.getElementById("score").innerHTML="Score : "+ Score;
+	document.getElementById("score").innerHTML="Score: " + Score;
 	var x=changeit.split("-");
 	//var y=listy.indexOf(x[1]);
 	var y=index(x[1]); 
@@ -80,7 +80,7 @@ function change(changeit)
 
 			currentid=changeit;
 			count++;
-			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);
+			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern2.jpg"},500);
 	  }
 	  else if(count==0) 
 	  {
@@ -97,7 +97,7 @@ function change(changeit)
 
 			previousid=changeit;
 			count++;
-			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern.jpg"},500);
+			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern2.jpg"},500);
 	  }
 	  else if(count==1) 
 	  {
@@ -113,7 +113,7 @@ function change(changeit)
 			}
 			currentid=changeit;
 			count++;
-			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);
+			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern2.jpg"},500);
 	  }
 
 	if(count>1) 
@@ -135,8 +135,8 @@ function change(changeit)
 			
 			document.getElementById(previousid).src=previous;
 			document.getElementById(currentid).src=current;
-			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern.jpg"},500);
-			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);  
+			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern2.jpg"},500);
+			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern2.jpg"},500);  
 		}
 
 		if(wincondition==8)
