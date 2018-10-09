@@ -2,7 +2,8 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +11,18 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/memory.css">
 		<script type="text/javascript" src="js/memory.js"></script>
 		<!-- Compiled and minified CSS -->
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-	    <!-- Compiled and minified JavaScript -->
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	  <!-- Compiled and minified JavaScript -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 	</head>
+
+
 	<body>
 		<!--[if lt IE 7]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
@@ -29,9 +34,7 @@
 				<a class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true" aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
 				<a class="github-button" href="https://github.com/prithaupadhyay/Memory-Game" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star prithaupadhyay/Memory-Game on GitHub">Star</a>
 			</div>
-			<div class="col-13"><!-- 
-				<button onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></button> -->
-
+			<div class="col-13">
 				<a class="waves-effect red accent-4 btn-large" onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></a>
 				<div class="card-panel teal lighten-2" id="score">Score: 100</div>
 			</div>
@@ -42,7 +45,7 @@
 			<div id="boxes">
 				<img class="box" id="box-0" src="image/pattern2.jpg" onclick="change('box-0')" >
 				<img class="box" id="box-1" src="image/pattern2.jpg" onclick="change('box-1')" >
-				<img class="box" id="box-2" src="image/pattern2.jpg" onclick="change('box-2')" >			
+				<img class="box" id="box-2" src="image/pattern2.jpg" onclick="change('box-2')" >
 				<img class="box" id="box-3" src="image/pattern2.jpg" onclick="change('box-3')"> </br>
 				<img class="box" id="box-4" src="image/pattern2.jpg" onclick="change('box-4')">
 				<img class="box" id="box-5" src="image/pattern2.jpg" onclick="change('box-5')">
@@ -58,7 +61,7 @@
 				<img class="box" id="box-15" src="image/pattern2.jpg" onclick="change('box-15')">
 			</div>
 		</main>
-		
+
 		<script async defer src="https://buttons.github.io/buttons.js"></script>
 	</body>
 </html>

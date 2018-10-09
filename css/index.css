@@ -1,17 +1,17 @@
-body { 
+body {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-	color: black; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color: black;
 	font-size: 128px;
-	margin-top: 20px; 
-	font-weight: normal; 
-	letter-spacing: -1px; 
-	line-height: 1; 
+	margin-top: 20px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 1;
 	text-align: center;
 }
 
@@ -22,20 +22,19 @@ img {
     margin-right: auto;
 }
 
-a { 
-	color: #685206; 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 14px; 
-	line-height: 24px; 
-	margin: 0 0 24px; 
-	text-align: justify; 
-	text-justify: inter-word; 
+a {
+	color: #685206;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 0 24px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 div.main-box {
 	margin: 40px;
-    background-color: #ffffff;
-	opacity: 0.6;
+  background-color: #ffffff;
+	opacity: 0.8;
 	padding: 1;
 	filter: alpha(opacity=60);
 	overflow-wrap: normal;
@@ -44,6 +43,7 @@ div.main-box {
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
+    border-radius: 4px;
     color: white;
     padding: 13px 13px;
     text-align: center;
