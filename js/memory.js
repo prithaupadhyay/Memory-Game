@@ -13,6 +13,7 @@ var previousid,currentid;
 var count=0;
 var Score=100;
 var wincondition=0;
+var name;
 
 var listy=[];
 var unicheck=[];
@@ -38,6 +39,10 @@ while(j<16)
 // 	console.log(listy[i]);	
 // } 
 
+function inputName(input_name) {
+	name = input_name;
+}
+
 function index(member) 
 {
 	for (var i = 0; i <16; i++) 
@@ -47,7 +52,6 @@ function index(member)
 	}
 }
 
-
 function change(changeit) 
 {
 	Score=Score-2;
@@ -55,7 +59,7 @@ function change(changeit)
 		window.alert("Game Over!");
 		window.location.reload();
 	}
-	document.getElementById("score").innerHTML="Score: " + Score;
+	document.getElementById("score").innerHTML=name + "'s Score: " + Score;
 	var x=changeit.split("-");
 	//var y=listy.indexOf(x[1]);
 	var y=index(x[1]); 
@@ -141,7 +145,7 @@ function change(changeit)
 
 		if(wincondition==8)
 		{
-			document.getElementById("score").innerHTML="Final Score : "+ Score;
+			document.getElementById("score").innerHTML = name + "'s Final Score : "+ Score;
 			//document.getElementById("boxes").innerHTML="Hurray!!! Your final score is "+Score;
 		}
 	}

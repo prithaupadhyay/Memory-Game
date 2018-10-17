@@ -3,6 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<script src="./js/memory.js"></script>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,17 +24,18 @@
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 
+
 		<header class="top-bar">
 			<div class="col-13">
 				<a class="github-button" href="https://github.com/prithaupadhyay/Memory-Game/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork prithaupadhyay/Memory-Game on GitHub">Fork</a>
-				<a class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true" aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
+				<a class="github-button" href="https://github.com/prithaupadhyay" data-size="large" data-show-count="true" 	aria-label="Follow @prithaupadhyay on GitHub">Follow @prithaupadhyay</a>
 				<a class="github-button" href="https://github.com/prithaupadhyay/Memory-Game" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star prithaupadhyay/Memory-Game on GitHub">Star</a>
 			</div>
 			<div class="col-13"><!-- 
 				<button onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></button> -->
 
 				<a class="waves-effect red accent-4 btn-large" onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></a>
-				<div class="card-panel teal lighten-2" id="score">Score: 100</div>
+				<div class="card-panel teal lighten-2" id="score"></div>
 			</div>
 			</div>
 		</header>
@@ -58,6 +60,11 @@
 				<img class="box" id="box-15" src="image/pattern2.jpg" onclick="change('box-15')">
 			</div>
 		</main>
+		<script type="text/javascript">
+			var name = prompt("Enter your name: ");
+			document.getElementById("score").innerHTML = name + "'s Score: 100";
+			inputName(name);
+		</script>
 		
 		<script async defer src="https://buttons.github.io/buttons.js"></script>
 	</body>
