@@ -13,6 +13,7 @@ var previousid,currentid;
 var count=0;
 var Score=100;
 var wincondition=0;
+var name;
 
 var listy=[];
 var unicheck=[];
@@ -38,6 +39,10 @@ while(j<16)
 // 	console.log(listy[i]);	
 // } 
 
+function inputName(input_name) {
+	name = input_name;
+}
+
 function index(member) 
 {
 	for (var i = 0; i <16; i++) 
@@ -47,11 +52,14 @@ function index(member)
 	}
 }
 
-
 function change(changeit) 
 {
 	Score=Score-2;
-	document.getElementById("score").innerHTML="Score : "+ Score;
+	if(Score < 0) {
+		window.alert("Game Over!");
+		window.location.reload();
+	}
+	document.getElementById("score").innerHTML=name + "'s Score: " + Score;
 	var x=changeit.split("-");
 	//var y=listy.indexOf(x[1]);
 	var y=index(x[1]); 
@@ -76,7 +84,7 @@ function change(changeit)
 
 			currentid=changeit;
 			count++;
-			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);
+			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern2.jpg"},500);
 	  }
 	  else if(count==0) 
 	  {
@@ -93,7 +101,7 @@ function change(changeit)
 
 			previousid=changeit;
 			count++;
-			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern.jpg"},500);
+			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern2.jpg"},500);
 	  }
 	  else if(count==1) 
 	  {
@@ -109,7 +117,7 @@ function change(changeit)
 			}
 			currentid=changeit;
 			count++;
-			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);
+			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern2.jpg"},500);
 	  }
 
 	if(count>1) 
@@ -131,13 +139,13 @@ function change(changeit)
 			
 			document.getElementById(previousid).src=previous;
 			document.getElementById(currentid).src=current;
-			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern.jpg"},500);
-			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern.jpg"},500);  
+			window.setTimeout(function (){document.getElementById(previousid).src="image/pattern2.jpg"},500);
+			window.setTimeout(function (){document.getElementById(currentid).src="image/pattern2.jpg"},500);  
 		}
 
 		if(wincondition==8)
 		{
-			document.getElementById("score").innerHTML="Final Score : "+ Score;
+			document.getElementById("score").innerHTML = name + "'s Final Score : "+ Score;
 			//document.getElementById("boxes").innerHTML="Hurray!!! Your final score is "+Score;
 		}
 	}

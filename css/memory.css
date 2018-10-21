@@ -1,14 +1,16 @@
 body { 
+	background-image: url('../image/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 }
 
-#boxes{
-	margin-top: 30px;
-	margin-left: 380px;
-    display: block;
+#boxes {
+	margin: 0 auto;
+	display: inline-block;
+	padding: 20px;
+	background-color: rgba(50,100,200,0.2);
 }
 
 div.score-box {
@@ -22,17 +24,45 @@ div.score-box {
 	font-size: 32px;
 }
 
-#score{
+#score {
 	float: right;
 	color:black;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 }
 
-#newgame{
+#newgame {
 	align-content: center;
 	margin-left:15.5%;
 	height: 50px;
 	width: 120px;
 	font-family: Palatino;
-	font-size: 30px;
+	font-size: 15px;
+}
+
+.top-bar {
+	width: 100%;
+	display: inline-block;
+}
+.col-13 {
+	width: 33.333%;
+	display: inline-block;
+	float: left;
+}
+.main {
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: relative;
+}
+
+/* fixe size of the cards */
+.box {
+	width: 120px;
+	height: 120px;
+	transition: transform 0.5s;
+	border-radius: 10px;
+}
+
+.box:hover {
+	transform: scale(1.05);
 }
