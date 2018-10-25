@@ -1,9 +1,15 @@
 <p align="center"><img src="image/memory.svg" align="center" width="150"></p>
 <h1 align="center"> Memory Game  🎮 </h1>
 <p align="center">
-  <img href="https://github.com/prithaupadhyay/Memory-Game/blob/master/LICENSE" src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square" align="center">
-  <img href="https://github.com/prithaupadhyay/Memory-Game/stargazers" src="https://img.shields.io/github/stars/prithaupadhyay/Memory-Game.svg?style=flat-square" align="center">
-  <img href="https://github.com/prithaupadhyay/Memory-Game/issues" src="https://img.shields.io/github/issues/prithaupadhyay/Memory-Game.svg?style=flat-square" align="center">
+  <a href="https://github.com/prithaupadhyay/Memory-Game/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/prithaupadhyay/Memory-Game/stargazers">
+    <img src="https://img.shields.io/github/stars/prithaupadhyay/Memory-Game.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/prithaupadhyay/Memory-Game/issues">
+    <img src="https://img.shields.io/github/issues/prithaupadhyay/Memory-Game.svg?style=flat-square">
+  </a>
 </p>
 <hr>
 <p align="center"> 
