@@ -1,37 +1,37 @@
-body { 
+body {
 	background-image: url('../image/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 #boxes {
 	margin: 0 auto;
 	display: inline-block;
 	padding: 20px;
-	background-color: rgba(50,100,200,0.2);
+	background-color: rgba(50, 100, 200, 0.2);
 }
 
 div.score-box {
 	margin: 40px;
-    background-color: #ffffff;
+	background-color: #ffffff;
 	opacity: 0.6;
 	padding: 1;
 	filter: alpha(opacity=60);
 	overflow-wrap: normal;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 32px;
 }
 
 #score {
 	float: right;
-	color:black;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color: black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #newgame {
 	align-content: center;
-	margin-left:15.5%;
+	margin-left: 15.5%;
 	height: 50px;
 	width: 120px;
 	font-family: Palatino;
@@ -42,11 +42,13 @@ div.score-box {
 	width: 100%;
 	display: inline-block;
 }
+
 .col-13 {
 	width: 33.333%;
 	display: inline-block;
 	float: left;
 }
+
 .main {
 	width: 100%;
 	text-align: center;
