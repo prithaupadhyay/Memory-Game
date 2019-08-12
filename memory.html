@@ -13,6 +13,8 @@
 		<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/memory.css">
 		<script type="text/javascript" src="js/memory.js"></script>
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
 		<!-- Compiled and minified CSS -->
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -59,9 +61,16 @@
 				<img class="box" id="box-14" src="image/pattern2.jpg" onclick="change('box-14')">
 				<img class="box" id="box-15" src="image/pattern2.jpg" onclick="change('box-15')">
 			</div>
+			<div class="data-box">
+				<button class="btn">New game</button>
+				<button class="btn">Restart</button>
+				<hr class="sub-buttons">
+				<span class="player player-name">Ruan Aragão</span>
+				<span class="player player-score">Score: 100</span>
+			</div>
 		</main>
 		<script type="text/javascript">
-			var name = prompt("Enter your name: ");
+			var name = "Ruan Aragão";//prompt("Enter your name: "); INDEV
 			document.getElementById("score").innerHTML = name + "'s Score: 100";
 			inputName(name);
 		</script>
