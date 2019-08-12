@@ -36,8 +36,9 @@
 			<div class="col-13"><!-- 
 				<button onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></button> -->
 
-				<a class="waves-effect red accent-4 btn-large" onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></a>
-				<div class="card-panel teal lighten-2" id="score"></div>
+				<!-- <a class="waves-effect red accent-4 btn-large" onclick="window.location.reload()" id="newgame" data-size="large"><b>Restart</b></a> -->
+				<!-- <div class="card-panel teal lighten-2" id="score"></div> -->
+
 			</div>
 			</div>
 		</header>
@@ -62,17 +63,31 @@
 				<img class="box" id="box-15" src="image/pattern2.jpg" onclick="change('box-15')">
 			</div>
 			<div class="data-box">
-				<button class="btn">New game</button>
-				<button class="btn">Restart</button>
+				<button class="btn" id="btn-newgame" onclick="NewGame()">New game</button>
+				<button class="btn" id="btn-restart" onclick="Restart()">Restart</button>
 				<hr class="sub-buttons">
-				<span class="player player-name">Ruan Aragão</span>
-				<span class="player player-score">Score: 100</span>
+				<span class="player player-name" id="player-name">Name</span>
+				<span class="player player-score">Score: <span id="score-point">0</span></span>
 			</div>
 		</main>
 		<script type="text/javascript">
-			var name = "Ruan Aragão";//prompt("Enter your name: "); INDEV
-			document.getElementById("score").innerHTML = name + "'s Score: 100";
+			var name;// = "Ruan Aragão";//prompt("Enter your name: "); INDEV
+			if (name == "" || name == null) NewGame();
+			document.getElementById("player-name").innerHTML = name;
+			document.getElementById("score-point").innerHTML = 100;
 			inputName(name);
+
+			function NewGame(name) {
+
+				name = prompt("Enter your name: ");
+				inputName(name);
+				window.location.reload();
+			}
+
+			function Restart(params) {
+				window.location.reload();
+			}
+
 		</script>
 		
 		<script async defer src="https://buttons.github.io/buttons.js"></script>
