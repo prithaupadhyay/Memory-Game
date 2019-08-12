@@ -39,6 +39,12 @@ hr.sub-buttons {
 	font-size: 28px
 }
 
+.attachment-full {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 /* div.score-box {
 	margin: 40px;
 	background-color: #ffffff;
