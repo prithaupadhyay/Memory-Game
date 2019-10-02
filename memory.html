@@ -15,12 +15,12 @@
 		<!-- Font -->
 		<link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
 		<!-- Compiled and minified CSS -->
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-	    <!-- Compiled and minified JavaScript -->
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-			
-			<script src="./js/memory.js"></script>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		
+		<script src="./js/memory.js"></script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -65,14 +65,39 @@
 			</div>
 		</main>
 
+		<!-- Modal Structure -->
+		<div id="modal1" class="modal modal-name" data-dismissible="false">
+			<div class="modal-content">
+				<h4>What's you name?</h4>
+				<input type="text" placeholder="Tux" autofocus="autofocus">
+				<button class="btn" type="button">START</button>
+				<a href="./index.html" class="btn btn-exit waves-effect waves-teal btn-flat">EXIT</a>
+			</div>
+		</div>
+
 		<a href="https://github.com/prithaupadhyay/Memory-Game"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+
+		
+		<script>
+			M.AutoInit();
+
+			var elems = document.querySelectorAll('.modal');
+			var options = {
+				dismissible: false
+			};
+			var instances = M.Modal.init(elems, options);
+			
+			var elem = document.getElementById('modal1');
+			var modal_name = M.Modal.getInstance(elem);
+		</script>
 
 		<script type="text/javascript">
 			var name;
 			if (name == "" || name == null) NewGame();
 			document.getElementById("player-name").innerHTML = name;
 			document.getElementById("score-point").innerHTML = 100;
-			inputName(name);
+			modal_name.open();
+			// inputName(name);
 
 			function NewGame(name) {
 

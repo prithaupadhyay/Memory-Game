@@ -101,3 +101,35 @@ hr.sub-buttons {
 .box:hover {
 	transform: scale(1.05);
 }
+
+
+.modal-name {
+	max-width: 22%;
+}
+.modal-name h4 {
+	color: #26a699;
+	font-family: 'Patua One', cursive;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+.modal-name input {
+	color: #333;
+	font-family: 'Patua One', cursive;
+	font-size: 22px !important;
+	text-align: center;
+}
+.modal-name button {
+	width: 100%;
+}
+
+.modal-name .btn-exit {
+	width: 100%;
+	border: 1px solid #EF9A9A;
+	margin-top: 0.5em;
+}
+.modal-name .btn-exit:hover {
+	background-color: #EF9A9A;
+}
+.modal-name .btn-exit:active {
+	background-color: red;
+}
