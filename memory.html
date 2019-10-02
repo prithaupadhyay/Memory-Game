@@ -69,8 +69,10 @@
 		<div id="modal1" class="modal modal-name" data-dismissible="false">
 			<div class="modal-content">
 				<h4>What's you name?</h4>
-				<input type="text" placeholder="Tux" autofocus="autofocus">
-				<button class="btn" type="button">START</button>
+				<form id="form-player-name">
+					<input type="text" id="new-player-name" placeholder="Tux" autofocus="autofocus" required="required">
+					<button id="btn-start" class="btn" type="submit">START</button>
+				</form>
 				<a href="./index.html" class="btn btn-exit waves-effect waves-teal btn-flat">EXIT</a>
 			</div>
 		</div>
@@ -89,23 +91,51 @@
 			
 			var elem = document.getElementById('modal1');
 			var modal_name = M.Modal.getInstance(elem);
+
+			
+
+			
 		</script>
 
 		<script type="text/javascript">
 			var name;
-			if (name == "" || name == null) NewGame();
-			document.getElementById("player-name").innerHTML = name;
-			document.getElementById("score-point").innerHTML = 100;
-			modal_name.open();
-			// inputName(name);
+			var form_name = document.getElementById('form-player-name');
+			var main = document.querySelector("body > main");
 
+			// Initialize game hidden
+			main.hidden = true;
+			
+			if (name == "" || name == null) {
+				// If no name for player, call new game function.
+				NewGame();
+			} else {
+				// If the player's name is set, build the game.
+				document.getElementById("player-name").innerHTML = name;
+				document.getElementById("score-point").innerHTML = 100;
+				main.hidden = false;
+			}
+			
+			// New player's name on submit form
+			form_name.addEventListener("submit", function (e) {
+				e.preventDefault();
+				NewPlayerName();
+			});
+
+			// Call new game
 			function NewGame(name) {
+				main.hidden = true;
+				modal_name.open();
+				return true;
+			}
 
-				name = prompt("Enter your name: ");
+			// Set new name for player
+			function NewPlayerName(e) {
+				name = document.getElementById('new-player-name').value;
 				inputName(name);
 				window.location.reload();
 			}
 
+			// Only restart game
 			function Restart(params) {
 				window.location.reload();
 			}
