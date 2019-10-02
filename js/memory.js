@@ -59,7 +59,8 @@ function change(changeit)
 		window.alert("Game Over!");
 		window.location.reload();
 	}
-	document.getElementById("score").innerHTML=name + "'s Score: " + Score;
+	document.getElementById("score-point").innerHTML= Score;
+	// document.getElementById("score").innerHTML=name + "'s Score: " + Score;
 	var x=changeit.split("-");
 	//var y=listy.indexOf(x[1]);
 	var y=index(x[1]); 

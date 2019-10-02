@@ -1,37 +1,70 @@
-body { 
+body {
 	background-image: url('../image/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 #boxes {
 	margin: 0 auto;
 	display: inline-block;
 	padding: 20px;
-	background-color: rgba(50,100,200,0.2);
+	background-color: rgba(50, 100, 200, 0.2);
 }
 
-div.score-box {
+.data-box {
+	margin: 0 auto;
+	display: inline-block;
+	padding: 20px;
+	top: auto;
+	position: absolute;
+	background-color: rgba(50, 100, 200, 0.2);
+}
+
+hr.sub-buttons {
+	margin-top: 20px;
+}
+
+.player {
+	font-family: 'Patua One', cursive;
+	display: block;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+.player-name {
+	color: #26a699;
+	font-size: 32px;
+}
+.player-score {
+	color: #333;
+	font-size: 28px
+}
+
+.attachment-full {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* div.score-box {
 	margin: 40px;
-    background-color: #ffffff;
+	background-color: #ffffff;
 	opacity: 0.6;
 	padding: 1;
 	filter: alpha(opacity=60);
 	overflow-wrap: normal;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 32px;
-}
+} */
 
-#score {
+/* #score {
 	float: right;
-	color:black;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-}
+	color: black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
 
 #newgame {
 	align-content: center;
-	margin-left:15.5%;
+	margin-left: 15.5%;
 	height: 50px;
 	width: 120px;
 	font-family: Palatino;
@@ -42,11 +75,13 @@ div.score-box {
 	width: 100%;
 	display: inline-block;
 }
+
 .col-13 {
 	width: 33.333%;
 	display: inline-block;
 	float: left;
 }
+
 .main {
 	width: 100%;
 	text-align: center;
@@ -58,10 +93,43 @@ div.score-box {
 .box {
 	width: 120px;
 	height: 120px;
+	cursor: pointer;
 	transition: transform 0.5s;
 	border-radius: 10px;
 }
 
 .box:hover {
 	transform: scale(1.05);
+}
+
+
+.modal-name {
+	max-width: 22%;
+}
+.modal-name h4 {
+	color: #26a699;
+	font-family: 'Patua One', cursive;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
+.modal-name input {
+	color: #333;
+	font-family: 'Patua One', cursive;
+	font-size: 22px !important;
+	text-align: center;
+}
+.modal-name button {
+	width: 100%;
+}
+
+.modal-name .btn-exit {
+	width: 100%;
+	border: 1px solid #EF9A9A;
+	margin-top: 0.5em;
+}
+.modal-name .btn-exit:hover {
+	background-color: #EF9A9A;
+}
+.modal-name .btn-exit:active {
+	background-color: red;
 }
